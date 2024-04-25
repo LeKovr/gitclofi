@@ -6,3 +6,7 @@
 
 # Go workspace file
 go.work
+
+# App files
+/var*
+/dest
