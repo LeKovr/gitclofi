@@ -2,12 +2,11 @@ module github.com/LeKovr/gitclofi
 
 go 1.21.3
 
-require golang.org/x/crypto v0.17.0
+require golang.org/x/crypto v0.17.0 // indirect
 
 require (
 	github.com/LeKovr/go-kit/config v0.2.2
 	github.com/LeKovr/go-kit/slogger v0.13.0
-	github.com/LeKovr/go-kit/ver v0.10.0
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/alecthomas/assert/v2 v2.8.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -32,7 +31,5 @@ require (
 	github.com/stretchr/testify v1.9.0 // indirect
 	go.opentelemetry.io/otel v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
-	golang.org/x/crypto v0.3.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
-	golang.org/x/tools v0.11.0 // indirect
 )
