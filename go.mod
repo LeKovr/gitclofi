@@ -2,6 +2,8 @@ module github.com/LeKovr/gitclofi
 
 go 1.21.3
 
+require golang.org/x/crypto v0.17.0
+
 require (
 	github.com/LeKovr/go-kit/config v0.2.2
 	github.com/LeKovr/go-kit/slogger v0.13.0
