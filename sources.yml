@@ -1,0 +1,14 @@
+
+- name: core
+  url: https://github.com/dopos/dcape
+  files:
+    - name: README.md
+      dest: ru/dcape.md
+      filter: tail -n +7
+      template: default
+      vars:
+        description: хранилище файлов конфигурации
+        weight: 5
+        purpose: хранилище файлов конфигурации в postgresql с доступом через браузер и АПИ
+        app: "[enfist](https://github.com/apisite/app-enfist)"
+        docker: "[ghcr.io/apisite/app-enfist](https://github.com/apisite/app-enfist/pkgs/container/app-enfist)"
