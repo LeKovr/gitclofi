@@ -1,10 +1,11 @@
 
 - name: core
-  url: https://github.com/dopos/dcape
+  url: https://github.com/dopos/dcape  #    - name: README.md
   files:
-    - name: README.md
+    - name: CHANGELOG.md
       dest: ru/dcape.md
-      filter: tail -n +7
+      filter: tail -n +7 | head -n -3
+#      filter: tail -n +7
       template: default
       vars:
         description: хранилище файлов конфигурации

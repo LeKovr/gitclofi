@@ -10,3 +10,5 @@ go.work
 # App files
 /var*
 /dest
+/gitclofi
+
